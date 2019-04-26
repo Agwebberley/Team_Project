@@ -265,6 +265,23 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 216212300}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &507679814 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100006, guid: c6453f8e1f814744d8b94e5a6d1f9942,
+    type: 2}
+  m_PrefabInternal: {fileID: 800496537}
+--- !u!114 &507679818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 507679814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc0b2163a0436cf418871f316f06a4eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wood: 0
 --- !u!1 &534669902
 GameObject:
   m_ObjectHideFlags: 0
@@ -502,10 +519,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1260775275}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d6405a833297aa4380e0f396e704c79, type: 3}
+  m_Script: {fileID: 11500000, guid: de85c85488428f1469dca99c9b9d5a10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   health: 100
+  inv: {fileID: 507679818}
 --- !u!65 &1260775277
 BoxCollider:
   m_ObjectHideFlags: 0
