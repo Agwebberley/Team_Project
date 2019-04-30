@@ -61,7 +61,11 @@
      <Compile Include="Assets\SampleScenes\Scripts\ParticleSceneControls.cs" />
      <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
      <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
+     <Compile Include="Assets\Script\ExitOne.cs" />
+     <Compile Include="Assets\Script\ExitThree.cs" />
+     <Compile Include="Assets\Script\ExitTwo.cs" />
      <Compile Include="Assets\Script\Inventory.cs" />
+     <Compile Include="Assets\Script\PlayerInventory.cs" />
      <Compile Include="Assets\Script\Shovel.cs" />
      <Compile Include="Assets\Script\Tree1.cs" />
      <None Include="Assets\rpg-tutorial-assets\README.txt" />
