@@ -4,7 +4,7 @@ public class Shovel : MonoBehaviour
 {
 
     public int health = 5;
-    public Inventory inv;
+    public PlayerInventory inv;
 
     private void OnCollisionEnter(Collision collision)
     {
