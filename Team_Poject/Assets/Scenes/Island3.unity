@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.57481706, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -171,6 +171,7 @@ GameObject:
   - component: {fileID: 542549427}
   - component: {fileID: 542549426}
   - component: {fileID: 542549430}
+  - component: {fileID: 542549431}
   m_Layer: 0
   m_Name: tree2
   m_TagString: tree
@@ -259,6 +260,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 5
   inv: {fileID: 1090311327}
+--- !u!114 &542549431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 542549425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4f40217cab5a614faace8c7d8f4846c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 5
 --- !u!1 &1090311322 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100006, guid: c6453f8e1f814744d8b94e5a6d1f9942,
@@ -313,6 +326,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86e24d27f4466f548be68c59b747c8dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  inv: {fileID: 0}
 --- !u!1 &1207236339
 GameObject:
   m_ObjectHideFlags: 0

@@ -13,6 +13,12 @@ public class Pickup : MonoBehaviour
             inv.rope = 2;
         }
 
+        if (collision.gameObject.tag == "tree")
+        {
+            inv.wood = inv.wood + 2;
+            Debug.Log("nyeh");
+        }
+
         if (collision.gameObject.name == "bridge") //third island win condition
         {
             if(inv.rope > 1 && inv.wood > 3)

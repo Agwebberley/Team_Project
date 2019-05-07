@@ -1,8 +1,8 @@
-﻿using UnityEngine;
+﻿/*using UnityEngine;
 
 public class Axe : MonoBehaviour {
 
-    PlayerInventory inv;
+    //PlayerInventory inv;
 
     void Start()
     {
@@ -17,4 +17,4 @@ public class Axe : MonoBehaviour {
         }
     }
 
-}
+}*/
