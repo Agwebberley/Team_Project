@@ -445,7 +445,7 @@ namespace GreatArcStudios
             }
             else if (mainPanel.active == true)
             {
-                pauseMenu.text = "Pause Menu";
+                pauseMenu.text = "Main Menu";
             }
 
             if (Input.GetKeyDown(KeyCode.Escape) && mainPanel.active == false)
