@@ -81,8 +81,10 @@
      <None Include="Assets\Pause Menu Assets\Fonts\open-sans\Apache License.txt" />
      <None Include="Assets\UltimateMenus\Readme.txt" />
      <None Include="Assets\rpg-tutorial-assets\README.txt" />
+     <None Include="Assets\QS\ComposerUI.txt" />
      <None Include="Assets\Pause Menu Assets\Fonts\exo\SIL Open Font License.txt" />
      <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
+     <None Include="Assets\QS\QS-Textures-Grass-FREE.txt" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>C:/Users/User/Documents/GitHub/Team_Project/Team_Poject/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>

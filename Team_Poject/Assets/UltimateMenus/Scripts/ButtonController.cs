@@ -84,6 +84,7 @@ public class ButtonController : MonoBehaviour, IPointerEnterHandler, IPointerExi
 
 	public void LoadScene(string SceneToLoad) 
 	{
+		
 		Time.timeScale = 1;
 		SceneManager.LoadScene ("AIsland"); // We use the SceneManager to load a scene whose name matches that of the string that we passed in with the function
 	}
