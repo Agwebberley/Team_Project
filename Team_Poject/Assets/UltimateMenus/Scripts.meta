@@ -1,8 +1,14 @@
 fileFormatVersion: 2
 guid: f56a285a52e9dd1479e9d2ec8f320a9c
 folderAsset: yes
+<<<<<<< HEAD
 DefaultImporter:
   externalObjects: {}
+=======
+timeCreated: 1476126648
+licenseType: Store
+DefaultImporter:
+>>>>>>> parent of b595fed... Merge branch 'master' of https://github.com/Agwebberley/Team_Project
   userData: 
   assetBundleName: 
   assetBundleVariant: 

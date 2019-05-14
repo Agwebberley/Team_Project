@@ -1,7 +1,13 @@
 fileFormatVersion: 2
 guid: 8739bca648248c74c89c687226db4322
+<<<<<<< HEAD
 MonoImporter:
   externalObjects: {}
+=======
+timeCreated: 1476149114
+licenseType: Store
+MonoImporter:
+>>>>>>> parent of b595fed... Merge branch 'master' of https://github.com/Agwebberley/Team_Project
   serializedVersion: 2
   defaultReferences: []
   executionOrder: 0
