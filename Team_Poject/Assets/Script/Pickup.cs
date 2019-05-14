@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Pickup : MonoBehaviour
 {
@@ -26,6 +27,16 @@ public class Pickup : MonoBehaviour
                 //load next scene
             }
         }
+
+  if (collision.gameObject.tag == "ladder") //first island win condition
+        {
+            if(inv.wood > 5)
+            {
+                //load next scene
+               SceneManager.LoadScene("Island 2");
+            }
+        }
+
 
     }
 }
