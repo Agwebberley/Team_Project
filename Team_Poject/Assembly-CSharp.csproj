@@ -54,6 +54,10 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\EasyMainMenu\Scripts\Main Menu Scripts\MainMenuController.cs" />
+     <Compile Include="Assets\Pause Menu Assets\Scripts\Pausemenu\PauseManager.cs" />
+     <Compile Include="Assets\Pause Menu Assets\Scripts\Pausemenu\SaveSettings.cs" />
+     <Compile Include="Assets\Pause Menu Assets\Scripts\Utlities\CoroutineUtlities.cs" />
+     <Compile Include="Assets\Pause Menu Assets\Scripts\Utlities\Rotate.cs" />
      <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
      <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />
      <Compile Include="Assets\SampleScenes\Menu\Scripts\SceneAndURLLoader.cs" />
@@ -67,7 +71,17 @@
      <Compile Include="Assets\Script\Pickup.cs" />
      <Compile Include="Assets\Script\PlayerInventory.cs" />
      <Compile Include="Assets\Script\Shovel.cs" />
+     <Compile Include="Assets\UltimateMenus\Scripts\ButtonController.cs" />
+     <Compile Include="Assets\UltimateMenus\Scripts\ButtonController_Paused.cs" />
+     <Compile Include="Assets\UltimateMenus\Scripts\CanvasController.cs" />
+     <Compile Include="Assets\UltimateMenus\Scripts\CanvasController_Paused.cs" />
+     <Compile Include="Assets\UltimateMenus\Scripts\MenuController.cs" />
+     <Compile Include="Assets\UltimateMenus\Scripts\MenuController_Paused.cs" />
+     <Compile Include="Assets\UltimateMenus\Scripts\PlayerController.cs" />
+     <None Include="Assets\Pause Menu Assets\Fonts\open-sans\Apache License.txt" />
+     <None Include="Assets\UltimateMenus\Readme.txt" />
      <None Include="Assets\rpg-tutorial-assets\README.txt" />
+     <None Include="Assets\Pause Menu Assets\Fonts\exo\SIL Open Font License.txt" />
      <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>C:/Users/User/Documents/GitHub/Team_Project/Team_Poject/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>

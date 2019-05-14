@@ -12,6 +12,12 @@ EditorBuildSettings:
     path: Assets/EasyMainMenu/Scenes/MainMenu.unity
     guid: c09f4b0b2a9226946aa44a3dd8ffdfa6
   - enabled: 1
-    path: Assets/Scenes/Island1.unity
+    path: Assets/Scenes/AIsland.unity
     guid: b83e645935f0e6748ade8e3c86f0988f
+  - enabled: 1
+    path: Assets/Scenes/Island 2.unity
+    guid: bb33ad97807eaca4ab69dbb8e73f0378
+  - enabled: 1
+    path: Assets/Scenes/Island3.unity
+    guid: ce5a43b062a050545a88b35f031023c4
   m_configObjects: {}
