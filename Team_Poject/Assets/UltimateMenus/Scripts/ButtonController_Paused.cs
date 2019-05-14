@@ -69,7 +69,7 @@ public class ButtonController_Paused : MonoBehaviour, IPointerEnterHandler, IPoi
 
 	public void LoadScene(string MenuName)
 	{
-		SceneManager.LoadScene ("MainMenu 2");
+		SceneManager.LoadScene ("MainMenu");
 	}
 
 	public void Quit()
